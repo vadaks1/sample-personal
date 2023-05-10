@@ -15,11 +15,18 @@ body {
 h1 {
     font-size: 74px;
     text-align: center;
+    color:rgb(131, 186, 237);
 }
 
 h2 {
     font-size: 48px;
     text-align: center;
+    color:rgb(131, 186, 237);
+}
+
+.headers {
+    font-weight: bold;
+    color:rgb(131, 186, 237);
 }
 
 img {
