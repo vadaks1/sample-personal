@@ -46,6 +46,7 @@ p,li {
 .center {
     text-align:center;
     font-size: 40px;
+    margin: 20px 10px;
 }
 
 .onetime {
