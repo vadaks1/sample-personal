@@ -5,9 +5,9 @@ html {
 
 body {
     background-color: rgb(227, 230, 236);
-    width: 600px;
+    width: 1250px;
     margin: 0 auto;
-    border: 5px double black;
+    border: 5px dashed black;
     border-radius: 60px;
     padding: 0 20px 20px 20px;
 }
@@ -42,27 +42,9 @@ p,li {
     letter-spacing: 1px;
 }
 
-.this_is_me {
-    font-style: italic;
-    margin: 20px 10px;
-    font-size: 30px;
-    line-height: 2;
-    letter-spacing: 1px;
-}
-
-.center {
-    text-align:center;
-    font-size: 40px;
-    margin: 20px 10px;
-}
-
-.onetime {
-    font-style:italic;
-    font-size: 50px;
-}
-
 .bold {
     font-weight: bold;
+    font-size: 48px;
 }
 
 li.bold {
@@ -73,18 +55,10 @@ p.bold {
     text-decoration: underline;
 }
 
-.shading {
-    border: rgb(192, 225, 255) 2px;
-    border-radius: 5%;
+.shading  {
+    border: rgb(210, 233, 254) 2px;
+    border-radius: 7%;
     padding: 0 20px 20px 20px;
     margin: 10px;
     background-color: rgb(210, 233, 254);
-}
-
-h1 {
-    transform: transform .2s ease-in;
-}
-
-h1:hover {
-    transform: scale(1.2);
 }
