@@ -1,0 +1,82 @@
+html {
+    background-color: rgb(227, 230, 236);
+    font-family:'Dongle', sans-serif;
+}
+
+body {
+    background-color: rgb(227, 230, 236);
+    width: 600px;
+    margin: 0 auto;
+    border: 5px double black;
+    border-radius: 60px;
+    padding: 0 20px 20px 20px;
+}
+
+h1 {
+    font-size: 74px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+
+p,li {
+    margin: 20 px 0;
+    font-size: 36px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.this_is_me {
+    font-style: italic;
+    margin: 20px 10px;
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.center {
+    text-align:center;
+    font-size: 40px;
+}
+
+.onetime {
+    font-style:italic;
+    font-size: 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+li.bold {
+    font-style: italic;
+}
+
+p.bold {
+    text-decoration: underline;
+}
+
+.coolbox {
+    border: rgb(192, 225, 255) 2px;
+    border-radius: 5%;
+    padding: 0 20px 20px 20px;
+    margin: 10px;
+    background-color: rgb(210, 233, 254);
+}
+
+h1 {
+    transform: transform .2s ease-in;
+}
+
+h1:hover {
+    transform: scale(1.2);
+}
